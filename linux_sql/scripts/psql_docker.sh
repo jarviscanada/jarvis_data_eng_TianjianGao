@@ -1,11 +1,5 @@
 #! /bin/sh
 
-<<<<<<< HEAD
-echo "hello world"
-name=$1
-
-exit 0
-=======
 cmd=$1
 db_username=$2
 db_password=$3
@@ -50,4 +44,3 @@ case $cmd in
 	exit 1
 	;;
 esac
->>>>>>> feature/psql_docker
