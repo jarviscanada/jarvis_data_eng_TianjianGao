@@ -1,7 +1,7 @@
 # Preferred name (Characters only)
 name: "Tianjian (Lucas) Gao"
 # Your GitHub repo root URL
-github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_tianjian
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_tianjiangao
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
@@ -18,9 +18,11 @@ skills:
     - Agile/Scrum
     - Git
     - Python
+    - Scikit-learn
+    - PyTorch
   # At least 5 skills
   competent:
-    - C#
+    - C#/.Net
     - C++
     - HTML/CSS
     - AWS | GCP
@@ -121,12 +123,12 @@ education:
       - “Excellent Thesis Award”
       - "GPA: 3.83/4.3”
   - school_name: “Penn State University“
-    duration: "2016-2018"
+    duration: "2015-2019"
     degree: “B.Sc. Computer Science & French Studies (double major)“
     department: "Electrical Engineering and Computer Engineering & School of Liberal Arts” 
     awards_achievements: 
       - “Semester Abroad Grant at University of Montpellier ($ 1 500)”
-      - “Dean’s List 2016, 2017
+      - “Dean’s List 2016, 2017"
       - "GPA: 3.5/4.0”
 
 #Optional section
@@ -140,15 +142,16 @@ others:
       - “Deeplearning.AI Generative AI with Large Language Models”
       - “IVADO Chatbot Creation with Rasa and Docker”
       - “IVADO Knowledge Graph Development with Neo4j” 
-      - “FreeCodeCamp”
-  - title: "Awards"
-    bullets:
-      - "Winner"
+      - “FreeCodeCamp FrontEnd Development”
+  # - title: "Awards"
+    # bullets:
+      # - "Winner"
   - title: "Activities/Hobbies"
     bullets:
-      - “Yoga🧘‍♂️”
-      - “Hiking🥾”
-      - “Reading”
-      - “Piano, Concert & Music”
+      - “7-year yoga practitioner. I follow Tim Senesi on YouTube 🧘‍♂️”
+      - “Hiking. My favorite trails are Mont Orford and Mont Sutton 🥾”
+      - “Reading. Currently reading Les Miserables, Neuromancer, and The Tommyknockers.”
+      - “Piano, Concert & Music. Avid Liszt and Schumann fan. Music festival frequenter.”
       - "Competitive programming”
       - "Volunteer, Penn State Thon for Childhood Cancer“
+      - "I love learning new languages! I am proficient in English, French, Mandarin Chinese, and Japanese. I have a 1500 day streak on Duolingo."
