@@ -75,7 +75,7 @@ crontab -l
 ## Architecture
 <!-- Draw a cluster diagram with three Linux hosts, a DB, and agents (use draw.io website). Image must be saved to the `assets` directory. -->
 <figure>
-<img src="assets/host_usage_diagram.jpg" alt="Host Usage Diagram" width="200">
+<img src="assets/host_usage_diagram.jpg" alt="Host Usage Diagram" width="300">
 <figcaption>Illustration of automated agents updating VM info to a shared Postgres Database running on Docker</figcaption>
 </figure>
 
