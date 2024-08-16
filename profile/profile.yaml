@@ -1,11 +1,11 @@
 # Preferred name (Characters only)
 name: "Tianjian (Lucas) Gao"
 # Your GitHub repo root URL
-github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_tianjian
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_tianjiangao
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
+summary: I am a highly-motivated young professional with a passion for software development and finance. I hold a master’s degree in AI and Natural Language Processing from the University of Montreal and a double bachelor’s degree in Computer Science and French Studies from Penn State University. Professionally, I’ve worked as a C# and SQL backend developer at a leading FinTech company and completed three internships in backend development and data science. In my free time, I develop chatbots, LLM applications, and am currently working on a mobile development project. I’m proficient in Java and SQL, with a solid grasp of the Software Development Life Cycle, Data Structures, Cloud technologies, and Core Algorithms. A quick learner with a growth mindset, I’m eager to tackle challenges in the ever-evolving tech industry. I’ve also developed a keen interest in FinTech and aspire to explore trading and quantitative finance. On a lighter note, I’m a classical pianist who dabbles in jazz and have maintained a 1500-day streak on Duolingo.
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -13,24 +13,29 @@ skills:
   # At least 5 skills
   proficient:
     - Java
+    - C#/.Net
     - Linux/Bash
     - RDBMS/SQL
     - Agile/Scrum
     - Git
+    - REST APIs
+    - Python
+    - Scikit-learn
+    - PyTorch
   # At least 5 skills
   competent:
-    - Donec
-    - fermentum
-    - Donec
-    - fermentum
-    - Donec
+    - C++
+    - HTML/CSS/JavaScript
+    - Maven
+    - Sprint Boot
+    - AWS | GCP
   # At least 5 skills
   familiar:
-    - Donec
-    - fermentum
-    - fermentum
-    - fermentum
-    - fermentum
+    - Flutter
+    - React
+    - Jenkins
+    - NodeJS
+    - Angular
 
 # List of Jarvis projects
 jarvis_projects:
@@ -64,16 +69,18 @@ jarvis_projects:
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
-    #project name
-  - name: "Web app for resturant"
+  #project name
+  - name: "PDF and YouTube summarizers"
     #URL is optional
     git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-  - name: "Machine Learning"
-    git_url:
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-
+    description: LLM applications using LangChain and RAG. Leveraged Chroma and Weaviate vector databases for efficient text storage and indexing. Compared Faiss, ScaNN, and Annoy similarity-search algorithms. Applied prompt engineering techniques such as in-context learning, few-shot learning and chain-of-thoughts for better reasoning performance.
+  - name: "Deep Learning from Scratch"
+    git_url: "https://github.com/CestLucas/Convolutional-Neural-Network"
+    description: Implemented deep learning models and components, including CNN, RNN, GRU, VAE, GAN, Transformer and GPT-2, as well as algorithms such as KL divergence, attention mechanism, and activation functions, using Python 3 and Numpy.
+  - name: "RPG Game Strategy Optimization"
+    git_url: "https://github.com/CestLucas/Approximate-dynamic-programming/"
+    description: Implemented complex dynamic programming algorithms such as forward recursion, approximate value iteration, and q-learning to optimize the level-up strategies for a text-based RPG game written in Python 3.
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
 #The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
@@ -81,43 +88,74 @@ professional_experience:
   #Write your Jarvis role as a professional experience rather than training.
   - title: "Software Developer"
     company: "Jarvis"
-    duration: "2020-present"
+    duration: "2024-present"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Startup  pour les personnes aux prises avec des troubles de la parole (SLA). Expérimentation avec Gemma-2b sur l’appareil (on-device) pour une saisie automatique, ainsi langchain-dart et OpenAI API pour traiter l’historique des conversations des utilisateurs."
+  - title: "Lead NLP Developer"
+    company: "Vocality"
+    duration: "2024-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
-  - title: "Tutor"
-    company: "XYZ Company"
-    duration: "2019"
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
+  - title: "Backend Developer, Wealth Management Platform"
+    company: "FNZ Group"
+    duration: "2023-2024"
+    description: "Created SQL tables and views in MS SQL Server and optimized C# backend for a $1.5T AUM wealth management platform.Created and processed REST APIs using parameter binding in .NET and tested server response using Insomnia/Postman."
+  - title: "Backend Developer Intern, Senior-Care Chatbot"
+    company: "Innovention"
+    duration: "2023-2023"
+    description: "Developed a natural language understanding (NLU) module using StringBuilder, LINQ, and Stanford NLP to extract entities, and actions in a user query, and built a knowledge graph using Neo4j, improving “common sense” question answering by 100%. Experimented with retrieval-augmented generation (RAG) using Chroma and LangChain for indexing  user info and knowledge."
+  - title: "Data Scientist Intern, Data-driven Analytics"
+    company: "International Air and Transportation Association"
+    duration: "2021-2022"
+    description: "Leveraged keyword modeling (AutoPhrase), topic modeling (LDA), unsupervised clustering, and taxonomy generation to extract over 100 new aviation incident topics from 2 million aviation incident reports, helping improve aviation safety.Implemented algorithms from research, ported code from Python 2 to Python 3 and edited shell scripts for model training. Worked within a cross-functional team to share classification models, word embeddings, and taxonomies with member airlines, reducing time and cost for data analytics."
+  - title: "Data Scientist Intern, Data-driven Analytics"
+    company: "International Air and Transportation Association"
+    duration: "2020-2021"
+    description: "Preprocessed 2 million multi-lingual aviation reports using spaCy and Gensim. Detected text languages using TextBlob. Trained machine learning models using Scikit-learn, as well as BERT LLMs to classify reports into a multi-level taxonomy using PyTorch. Trained T5 Seq2Seq models and integrated them with the IATA dashboard, thereby facilitating manual classification. Analyzed the reports using Pandas, spaCy, Matplotlib, and TensorBoard. Communicated methodologies and complex data findings effectively with stakeholders."
 
-#List of edcuation
-education: 
-  - school_name: "XYZ university"
-    duration: "2012-2016"
-    degree: "Bachelor of Applied Sciences"
-    department: "Electrical and Computer Engineering"
+#List of education
+education:
+  - school_name: "Université de Montréal"
+    duration: "2019-2022"
+    degree: "M.Sc. Computer Science"
+    department: "MILA | RALI-DIRO"
     # optional
-    awards_achievements: 
-      - "Scholarship"
-      - "Dean's List (2015, 2016): Ut enim ad minim veniam"
-      - "GPA: 3.8/4.0"
-  - school_name: "XYZ university"
-    duration: "2016-2018"
-    degree: "Master of Engineering"
-    department: "Electrical and Computer Engineering"
-    awards_achievements: 
+    awards_achievements:
+      - "Full Tuition Exemption Scholarship ($24 000)"
+      - "Scholarship of Excellence ($5 700)"
+      - "Excellent Thesis Award"
+      - "GPA: 3.83/4.3"
+  - school_name: "Penn State University"
+    duration: "2015-2019"
+    degree: "B.Sc. Computer Science & French Studies (double major)"
+    department: "Electrical Engineering and Computer Engineering & School of Liberal Arts"
+    awards_achievements:
+      - "Semester Abroad Grant at University of Montpellier ($ 1 500)"
+      - "Dean’s List 2016, 2017"
+      # - "GPA: 3.5/4.0"
 
 #Optional section
 others:
-    #category
+  #category
   - title: "Certificates"
     #list of items
     bullets:
-      - "Udacity Machine Learning (2019)"
-  - title: "Awards"
-    bullets:
-      - "Winner"
+      - "AWS Certified Cloud Practitioner"
+      - "AWS Certified Machine Learning – Specialty"
+      - "Deeplearning.AI Generative AI with Large Language Models"
+      - "IVADO Chatbot Creation with Rasa and Docker"
+      - "IVADO Knowledge Graph Development with Neo4j"
+      - "FreeCodeCamp Responsive Web Design "
+  # - title: "Awards"
+  # bullets:
+  # - "Winner"
   - title: "Activities/Hobbies"
     bullets:
-      - "Basketball player"
-      - "Competitive gaming"
-      - "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+      - "7-year yoga practitioner. I follow Tim Senesi on YouTube"
+      - "5-year hiker. My favorite trails are Mont Orford and Mont Sutton"
+      - "Reader. Currently reading Les Miserables, Neuromancer, and The Tommyknockers"
+      - "15-year pianist. Music festival frequenter. Audiophile (HD600 and K612 Pro)"
+      # - "Competitive programming"
+      - "Volunteer, Penn State Thon for children cancer prevention"
+      - "Language learner proficient in English, French, Mandarin Chinese, and Japanese. I have a 1500 day streak on Duolingo"
+      - "Traveller. China, United States, France, Spain, Germany, UK, Japan... ✈️"

@@ -1,7 +1,7 @@
 # Preferred name (Characters only)
 name: "Tianjian (Lucas) Gao"
 # Your GitHub repo root URL
-github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_tianjiangao
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_tianjian
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
@@ -17,21 +17,18 @@ skills:
     - RDBMS/SQL
     - Agile/Scrum
     - Git
-    - Python
-    - Scikit-learn
-    - PyTorch
   # At least 5 skills
   competent:
-    - C#/.Net
-    - C++
-    - HTML/CSS
-    - AWS | GCP
+    - Donec
+    - fermentum
+    - Donec
+    - fermentum
     - Donec
   # At least 5 skills
   familiar:
-    - JavaScript
-    - React
-    - Jenkins
+    - Donec
+    - fermentum
+    - fermentum
     - fermentum
     - fermentum
 
@@ -84,52 +81,30 @@ professional_experience:
   #Write your Jarvis role as a professional experience rather than training.
   - title: "Software Developer"
     company: "Jarvis"
-    duration: "2024-present"
+    duration: "2020-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
-  - title: “Lead NLP Developer“
-    company: “Vocality”
-    duration: "2024-present"
-    # The project description must start with an action verb (https://bit.ly/3guO98u)
+  - title: "Tutor"
+    company: "XYZ Company"
+    duration: "2019"
     description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
-  - title: “Backend Developer, Wealth Management Platform“
-    company: “FNZ Group“
-    duration: "2023-2024”
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
-  - title: “Backend Developer Intern, Senior-Care Chatbot“
-    company: “Invention“
-    duration: "2023”
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
-  - title: “Data Scientist Intern, Data-driven Analytics“
-    company: “International Air and Transportation Association“
-    duration: "2021-2022”
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
-  - title: “Data Scientist Intern, Data-driven Analytics“
-    company: “International Air and Transportation Association“
-    duration: "2020-2021”
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."   
-    
-    
-#List of education
+
+#List of edcuation
 education: 
-  - school_name: “Université de Montréal”
-    duration: “2019-2022”
-    degree: “M.Sc. Computer Science“
-    department: “MILA | RALI-DIRO”
+  - school_name: "XYZ university"
+    duration: "2012-2016"
+    degree: "Bachelor of Applied Sciences"
+    department: "Electrical and Computer Engineering"
     # optional
     awards_achievements: 
-      - “Full Tuition Exemption Scholarship ($24 000)”
-      - “Scholarship of Excellence ($5 700)”
-      - “Excellent Thesis Award”
-      - "GPA: 3.83/4.3”
-  - school_name: “Penn State University“
-    duration: "2015-2019"
-    degree: “B.Sc. Computer Science & French Studies (double major)“
-    department: "Electrical Engineering and Computer Engineering & School of Liberal Arts” 
+      - "Scholarship"
+      - "Dean's List (2015, 2016): Ut enim ad minim veniam"
+      - "GPA: 3.8/4.0"
+  - school_name: "XYZ university"
+    duration: "2016-2018"
+    degree: "Master of Engineering"
+    department: "Electrical and Computer Engineering"
     awards_achievements: 
-      - “Semester Abroad Grant at University of Montpellier ($ 1 500)”
-      - “Dean’s List 2016, 2017"
-      - "GPA: 3.5/4.0”
 
 #Optional section
 others:
@@ -137,21 +112,12 @@ others:
   - title: "Certificates"
     #list of items
     bullets:
-      - "AWS Certified Cloud Practitioner"
-      - “AWS Certified Machine Learning – Specialty”
-      - “Deeplearning.AI Generative AI with Large Language Models”
-      - “IVADO Chatbot Creation with Rasa and Docker”
-      - “IVADO Knowledge Graph Development with Neo4j” 
-      - “FreeCodeCamp FrontEnd Development”
-  # - title: "Awards"
-    # bullets:
-      # - "Winner"
+      - "Udacity Machine Learning (2019)"
+  - title: "Awards"
+    bullets:
+      - "Winner"
   - title: "Activities/Hobbies"
     bullets:
-      - “7-year yoga practitioner. I follow Tim Senesi on YouTube 🧘‍♂️”
-      - “Hiking. My favorite trails are Mont Orford and Mont Sutton 🥾”
-      - “Reading. Currently reading Les Miserables, Neuromancer, and The Tommyknockers.”
-      - “Piano, Concert & Music. Avid Liszt and Schumann fan. Music festival frequenter.”
-      - "Competitive programming”
-      - "Volunteer, Penn State Thon for Childhood Cancer“
-      - "I love learning new languages! I am proficient in English, French, Mandarin Chinese, and Japanese. I have a 1500 day streak on Duolingo."
+      - "Basketball player"
+      - "Competitive gaming"
+      - "Volunteer, ABC Food bank: Ut enim ad minim veniam"
