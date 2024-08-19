@@ -8,14 +8,15 @@
         "GPA: 3.83/4.3"
       ],
       "degree": "M.Sc. Computer Science",
-      "department": "MILA | RALI-DIRO",
+      "department": "MILA/RALI-DIRO",
       "duration": "2019-2022",
       "school_name": "Université de Montréal"
     },
     {
       "awards_achievements": [
         "Semester Abroad Grant at University of Montpellier ($ 1 500)",
-        "Dean’s List 2016, 2017"
+        "Dean’s List 2016, 2017",
+        "Advanced Vehicle Club (ADAS) | Robotic Club (Arduino) | French Club"
       ],
       "degree": "B.Sc. Computer Science \u0026 French Studies (double major)",
       "department": "Electrical Engineering and Computer Engineering \u0026 School of Liberal Arts",
@@ -27,8 +28,11 @@
   "highlighted_projects": [
     {
       "description": "LLM applications using LangChain and RAG. Leveraged Chroma and Weaviate vector databases for efficient text storage and indexing. Compared Faiss, ScaNN, and Annoy similarity-search algorithms. Applied prompt engineering techniques such as in-context learning, few-shot learning and chain-of-thoughts for better reasoning performance.",
-      "git_url": "https://github.com/jarviscanada/jarvis_profile_builder",
       "name": "PDF and YouTube summarizers"
+    },
+    {
+      "description": "Created a chatbot for initiating and managing restaurant reservations using Rasa. Defined user intents, actions, slots, and responses. Designed conversation flows with ManyChat, and deployed the application using Docker and ngrok. Optimization of the chatbot with Rasa X (CI/CD) and integration with Facebook Messenger. Currently reimplementing the bot on Google Dialogflow CX.",
+      "name": "French Restaurant Reservation Agent (Chatbot)"
     },
     {
       "description": "Implemented deep learning models and components, including CNN, RNN, GRU, VAE, GAN, Transformer and GPT-2, as well as algorithms such as KL divergence, attention mechanism, and activation functions, using Python 3 and Numpy.",
@@ -36,14 +40,22 @@
       "name": "Deep Learning from Scratch"
     },
     {
-      "description": "Implemented complex dynamic programming algorithms such as forward recursion, approximate value iteration, and q-learning to optimize the level-up strategies for a text-based RPG game written in Python 3.",
+      "description": "Created a text-based RPG game using Python 3. Implemented complex dynamic programming algorithms such as forward recursion, approximate value iteration, and Q-learning to simulate the optimal level-up strategies. Optimized the algorithms using multi-threading.",
       "git_url": "https://github.com/CestLucas/Approximate-dynamic-programming/",
       "name": "RPG Game Strategy Optimization"
+    },
+    {
+      "description": "Imitated Apple’s dynamic scrolling mechanism with JavaScript Scroll Magic and worked on the Odin Project to create a web service for user login. Created an application for nurse scheduling using the Java backend with Maven, Spring Boot, and MongoDB.",
+      "name": "JavaScript and Java Web Development"
+    },
+    {
+      "description": "Explored the stochastic process and quadratic variation to approximate Brownian motion. Loaded stock data from Yahoo Finance. Implemented Monte Carlo simulations for financial modeling using SciPy and Pandas.",
+      "name": "Brownian Motion Simulation for Quantitative Finance"
     }
   ],
   "jarvis_projects": [
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
+      "description": "To-do. Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
       "git_url": "/linux_sql",
       "name": "Cluster Monitor"
     },
@@ -91,18 +103,18 @@
         "Deeplearning.AI Generative AI with Large Language Models",
         "IVADO Chatbot Creation with Rasa and Docker",
         "IVADO Knowledge Graph Development with Neo4j",
-        "FreeCodeCamp Responsive Web Design "
+        "FreeCodeCamp Responsive Web Design (HTML, CSS, Flexbox, CSS Grid)"
       ],
       "title": "Certificates"
     },
     {
       "bullets": [
-        "7-year yoga practitioner. I follow Tim Senesi on YouTube",
-        "5-year hiker. My favorite trails are Mont Orford and Mont Sutton",
-        "Reader. Currently reading Les Miserables, Neuromancer, and The Tommyknockers",
-        "15-year pianist. Music festival frequenter. Audiophile (HD600 and K612 Pro)",
+        "7-year yoga practitioner. I follow Tim Senesi on YouTube 🧘‍♂️",
+        "5-year hiker. My favorite trails are Mont Orford and Mont Sutton 🥾",
+        "Reader. Currently reading Les Miserables, Neuromancer, and The Tommyknockers 📖",
+        "15-year pianist. Music festival frequenter. Audiophile (HD600 and K612 Pro) 🎶",
         "Volunteer, Penn State Thon for children cancer prevention",
-        "Language learner proficient in English, French, Mandarin Chinese, and Japanese. I have a 1500 day streak on Duolingo",
+        "Language learner proficient in English, French, Mandarin Chinese, and Japanese. I have a 1500 day streak on Duolingo 🦉",
         "Traveller. China, United States, France, Spain, Germany, UK, Japan... ✈️"
       ],
       "title": "Activities/Hobbies"
@@ -111,25 +123,25 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Startup  pour les personnes aux prises avec des troubles de la parole (SLA). Expérimentation avec Gemma-2b sur l’appareil (on-device) pour une saisie automatique, ainsi langchain-dart et OpenAI API pour traiter l’historique des conversations des utilisateurs.",
+      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
       "duration": "2024-present",
       "title": "Software Developer"
     },
     {
       "company": "Vocality",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
+      "description": "Creating text prediction models and autocomplete features to help ALS patients communicate better. Developing on-device large language models (LLM) using tflite-flutter. Treating and storing user conversation using langchain-dart and OpenAI API. Developing traditional autocomplete algorithms such as Trie and Markov-chains. (TBC) ",
       "duration": "2024-present",
-      "title": "Lead NLP Developer"
+      "title": "Lead NLP Developer, Mobile App for Speech Disorders"
     },
     {
       "company": "FNZ Group",
-      "description": "Created SQL tables and views in MS SQL Server and optimized C# backend for a $1.5T AUM wealth management platform.Created and processed REST APIs using parameter binding in .NET and tested server response using Insomnia/Postman.",
+      "description": "Created SQL tables and views in MS SQL Server and optimized C# backend for a $1.5T AUM wealth management platform.Developed and processed REST APIs using parameter binding in .NET and tested server response using Insomnia/Postman.",
       "duration": "2023-2024",
       "title": "Backend Developer, Wealth Management Platform"
     },
     {
       "company": "Innovention",
-      "description": "Developed a natural language understanding (NLU) module using StringBuilder, LINQ, and Stanford NLP to extract entities, and actions in a user query, and built a knowledge graph using Neo4j, improving “common sense” question answering by 100%. Experimented with retrieval-augmented generation (RAG) using Chroma and LangChain for indexing  user info and knowledge.",
+      "description": "Developed a natural language understanding (NLU) module using StringBuilder, LINQ, and Stanford NLP to extract entities and actions from user input for a custom chatbot platform. Built a knowledge graph using Neo4j, improving “common sense” question answering by 100%. Experimented with retrieval-augmented generation (RAG) using Chroma and LangChain for indexing  user info and knowledge.",
       "duration": "2023-2023",
       "title": "Backend Developer Intern, Senior-Care Chatbot"
     },
@@ -141,7 +153,7 @@
     },
     {
       "company": "International Air and Transportation Association",
-      "description": "Preprocessed 2 million multi-lingual aviation reports using spaCy and Gensim. Detected text languages using TextBlob. Trained machine learning models using Scikit-learn, as well as BERT LLMs to classify reports into a multi-level taxonomy using PyTorch. Trained T5 Seq2Seq models and integrated them with the IATA dashboard, thereby facilitating manual classification. Analyzed the reports using Pandas, spaCy, Matplotlib, and TensorBoard. Communicated methodologies and complex data findings effectively with stakeholders.",
+      "description": "Used machine learning models for text analysis and integrated them into the IATA dashboard. Preprocessed 2 million multi-lingual aviation reports using spaCy and Gensim. Detected text languages using TextBlob. Trained machine learning models using Scikit-learn, as well as BERT and T5 language models to classify reports into a multi-level taxonomy using PyTorch, facilitating manual classification. Analyzed the aviation reports using Pandas, spaCy, Matplotlib, and TensorBoard. Communicated methodologies and complex data findings effectively with stakeholders.",
       "duration": "2020-2021",
       "title": "Data Scientist Intern, Data-driven Analytics"
     }
@@ -152,7 +164,8 @@
       "HTML/CSS/JavaScript",
       "Maven",
       "Sprint Boot",
-      "AWS | GCP"
+      "AWS",
+      "GCP"
     ],
     "familiar": [
       "Flutter",
