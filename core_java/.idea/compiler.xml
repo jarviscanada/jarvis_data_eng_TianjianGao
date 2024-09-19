@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="grep" />
-        <module name="jdbc" />
-        <module name="twitter" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="grep" target="16" />
+      <module name="jdbc" target="18" />
+      <module name="twitter" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
