@@ -1,4 +1,4 @@
-package ca.jrvs.apps.jdbc.practice;
+package ca.jrvs.apps.stockquote.practice;
 
 public class SimpleCalculatorImpl implements SimpleCalculator {
   public SimpleCalculatorImpl() {

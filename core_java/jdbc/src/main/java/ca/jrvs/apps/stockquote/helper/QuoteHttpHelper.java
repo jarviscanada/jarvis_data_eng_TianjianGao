@@ -1,6 +1,6 @@
-package ca.jrvs.apps.stockquote.dao.helper;
+package ca.jrvs.apps.stockquote.helper;
 
-import static ca.jrvs.apps.stockquote.dao.helper.ApiKeyReader.getApiKey;
+import static ca.jrvs.apps.stockquote.helper.ApiKeyReader.getApiKey;
 
 import ca.jrvs.apps.stockquote.dto.Quote;
 import com.fasterxml.jackson.databind.ObjectMapper;

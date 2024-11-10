@@ -28,7 +28,7 @@
   "highlighted_projects": [
     {
       "description": "Leveraged LangChain and open-sourced large language models (LLM) such as Llama-3 and Gemma-2 via llama.cpp and Python APIs to summarize PDF documents and YouTube video transcripts. Utilized Chroma and Weaviate vector databases for efficient text storage and indexing. Compared Faiss, ScaNN, and Annoy similarity-search algorithms. Applied prompt engineering techniques such as in-context learning, few-shot learning and chain-of-thoughts for better reasoning performance.",
-      "name": "LLM PDF and YouTube summarizers"
+      "name": "PDF and YouTube summarizers using LLM"
     },
     {
       "description": "Created a chatbot for initiating and managing restaurant reservations using Rasa. Defined user intents, actions, slots, and responses. Designed conversation flows with ManyChat, and deployed the application using Docker and ngrok. Optimization of the chatbot with Rasa X (CI/CD) and integration with Facebook Messenger. Currently reimplementing the bot on Google Dialogflow CX.",
@@ -70,9 +70,19 @@
       "name": "Java Grep App"
     },
     {
-      "description": "(In development) Developed a Java application to obtain stock quotes using the Alpha Vantage API. The stock quotes are stored in a Postgres database via JDBC using the Data Access Object (DAO) pattern. The API and DAO are tested using the JUnit and Mockito frameworks to ensure consistent data access and storage. Developed REST API.",
+      "description": "Developed a robust Java application to retrieve stock quotes from the Alpha Vantage API, employing the Data Access Object (DAO) pattern for efficient interaction with a PostgreSQL database via JDBC. Architected service and controller layers to manage business logic and facilitate user interactions. Leveraged JUnit and Mockito frameworks for comprehensive unit and integration testing, validating API interactions and ensuring reliable data access and storage. This project highlights effective use of design patterns and test-driven development practices to deliver a high-quality, maintainable codebase.",
       "git_url": "/core_java/jdbc",
       "name": "Java Stock Quote App"
+    },
+    {
+      "description": "Designed and implemented a RESTful trading application using **Spring Boot**, focusing on clean API design and efficient data handling. Developed multiple controllers (Quote, Trader, Order, Dashboard) with **Spring MVC** annotations to manage entities like **Trader**, **Account**, and **SecurityOrder**. Integrated **JPA** and **Hibernate** for database interactions, leveraging **Spring Data JPA** for seamless CRUD operations. Implemented exception handling, input validation, and security best practices, and deployed on a web server to handle stock trading operations.",
+      "git_url": "/springboot",
+      "name": "Spring Boot Trading App"
+    },
+    {
+      "description": "Currently developing a scalable data analytics solution using PySpark to process large datasets for the London Gift Shop (LGS). Re-architecting the existing Python and Jupyter Notebook solution to run on Zeppelin (Hadoop) and Databricks (Azure) to handle big data in a distributed environment. The project focuses on performing advanced customer analytics to help LGS improve marketing campaigns and customer retention. Deliverables include notebooks for both Zeppelin and Databricks environments, enabling robust data processing and analysis across the company's entire dataset.",
+      "git_url": "/linux_sql",
+      "name": "PySpark Data Analytics (Data Engineering)"
     }
   ],
   "name": "Tianjian Lucas Gao",
@@ -106,7 +116,7 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Developed a Linux cluster monitoring agent on GCP by creating Bash scripts to pull system usage info into a dockerized PostgreSQL instance, saving DevOps time. Automated the process by using Crontab. Created a PostgreSQL database for tennis course management and implemented SQL queries for efficient CRUD operations and data aggregation. Created dockerized Java web apps for searching text patterns and for obtaining stock quotes using Stream, Lambda, and Alpha Vantage APIs. Managed microservices using Spring Boot, database transactions using JDBC, and build automation using Maven. Tested the apps using Junit and Mockito.",
+      "description": "Developed a Linux cluster monitoring agent on GCP by creating Bash scripts to pull system usage info into a dockerized PostgreSQL instance, saving DevOps time. Automated the process by using Crontab. Created a PostgreSQL database for tennis course management and implemented SQL queries for efficient CRUD operations and data aggregation. Created dockerized Java web apps for searching text patterns and for obtaining stock quotes using Stream, Lambda, and Alpha Vantage APIs. Managed microservices using Spring Boot, database transactions using JDBC, and build automation using Maven. Tested the apps using Junit and Mockito. Practiced big-data processing using PySpark and Databricks.",
       "duration": "2024-present",
       "title": "Software Developer"
     },

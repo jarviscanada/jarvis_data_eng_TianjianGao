@@ -1,4 +1,4 @@
-package ca.jrvs.apps.trading;
+package ca.jrvs.apps.trading.dao;
 
 import ca.jrvs.apps.trading.dom.Account;
 import org.springframework.data.jpa.repository.JpaRepository;

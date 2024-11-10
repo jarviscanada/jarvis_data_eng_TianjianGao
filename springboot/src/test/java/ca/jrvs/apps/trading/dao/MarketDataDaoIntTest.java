@@ -1,7 +1,6 @@
 package ca.jrvs.apps.trading.dao;
 
-import ca.jrvs.apps.trading.MarketDataDao;
-import ca.jrvs.apps.trading.model.config.MarketDataConfig;
+import ca.jrvs.apps.trading.config.MarketDataConfig;
 import java.io.IOException;
 import java.util.Arrays;
 import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
@@ -9,7 +8,7 @@ import org.aspectj.lang.annotation.Before;
 
 public class MarketDataDaoIntTest {
 
-  private MarketDataDao dao;
+  private MarketDataDAO dao;
 
   @Before
   public void init() {
@@ -20,7 +19,7 @@ public class MarketDataDaoIntTest {
     config.setHost("localhost"); //TODO
     config.setToken(System.getenv("TRADING_TOKEN"));
 
-    dao = new MarketDataDao(cm, config);
+    dao = new MarketDataDAO(cm, config);
   }
 
   @Test

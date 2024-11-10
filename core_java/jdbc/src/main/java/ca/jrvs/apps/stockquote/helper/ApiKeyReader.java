@@ -1,4 +1,4 @@
-package ca.jrvs.apps.stockquote.dao.helper;
+package ca.jrvs.apps.stockquote.helper;
 
 import java.io.IOException;
 import java.io.InputStream;

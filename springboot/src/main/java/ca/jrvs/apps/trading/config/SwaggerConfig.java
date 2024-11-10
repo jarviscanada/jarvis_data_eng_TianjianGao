@@ -1,4 +1,4 @@
-package ca.jrvs.apps.trading;
+package ca.jrvs.apps.trading.config;
 
 import static springfox.documentation.builders.PathSelectors.any;
 

@@ -1,0 +1,42 @@
+2024-09-24 23:57:59 INFO  QuoteHttpHelper:53 - Response body: {
+    "Global Quote": {
+        "01. symbol": "MSFT",
+        "02. open": "433.0000",
+        "03. high": "433.3500",
+        "04. low": "426.1000",
+        "05. price": "429.1700",
+        "06. volume": "17015754",
+        "07. latest trading day": "2024-09-24",
+        "08. previous close": "433.5100",
+        "09. change": "-4.3400",
+        "10. change percent": "-1.0011%"
+    }
+}
+2024-09-25 21:12:22 INFO  QuoteHttpHelper:53 - Response body: {
+    "Global Quote": {
+        "01. symbol": "NVDA",
+        "02. open": "122.0200",
+        "03. high": "124.9400",
+        "04. low": "121.6100",
+        "05. price": "123.5100",
+        "06. volume": "279012353",
+        "07. latest trading day": "2024-09-25",
+        "08. previous close": "120.8700",
+        "09. change": "2.6400",
+        "10. change percent": "2.1842%"
+    }
+}
+2024-09-25 21:14:09 INFO  QuoteHttpHelper:53 - Response body: {
+    "Global Quote": {
+        "01. symbol": "NVDA",
+        "02. open": "122.0200",
+        "03. high": "124.9400",
+        "04. low": "121.6100",
+        "05. price": "123.5100",
+        "06. volume": "279012353",
+        "07. latest trading day": "2024-09-25",
+        "08. previous close": "120.8700",
+        "09. change": "2.6400",
+        "10. change percent": "2.1842%"
+    }
+}

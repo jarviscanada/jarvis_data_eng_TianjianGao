@@ -1,6 +1,6 @@
-package ca.jrvs.apps.jdbc.practice;
+package ca.jrvs.apps.stockquote.practice;
 
-import static ca.jrvs.apps.jdbc.ApiKeyReader.getApiKey;
+import static ca.jrvs.apps.stockquote.helper.ApiKeyReader.getApiKey;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonMappingException;
@@ -13,10 +13,10 @@ import java.net.http.HttpResponse;
 public class CallAlphaVantage {
 
   public static String symbol = "MSFT";
-//  public static String apiKey = getApiKey();
-  public static String apiKey = "fe5d98fa33msh8f7c03a6ec81280p114f12jsne545133fbf88";
+  public static String apiKey = getApiKey();
 
   public static void main(String[] args) {
+    System.out.println(apiKey);
     HttpRequest request = HttpRequest.newBuilder()
         .uri(URI.create("https://alpha-vantage.p.rapidapi.com/query?function=GLOBAL_QUOTE&symbol="+symbol+"&datatype=json"))
         .header("X-RapidAPI-Key", apiKey)

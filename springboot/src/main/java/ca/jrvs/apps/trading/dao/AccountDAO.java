@@ -1,4 +1,5 @@
 package ca.jrvs.apps.trading.dao;
 
-public class AccountDao {
+public class AccountDAO {
+
 }

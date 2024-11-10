@@ -1,27 +1,41 @@
 package ca.jrvs.apps.stockquote.dto;
 
-import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import java.sql.Timestamp;
 import java.sql.Date;
 
-@JsonInclude(JsonInclude.Include.NON_NULL)
 public class GlobalQuote {
+  @JsonProperty("01. symbol")
+  private String symbol;
 
-  private String ticker;
+  @JsonProperty("02. open")
   private double open;
-  private double high;
-  private double low;
-  private double volume;
-  private double price;
-  private Date lastTradingDay;
-  private double previousClose;
-  private double change;
-  private String changePercent;
-  private Timestamp timestamp;
 
-  public void setTicker(String ticker) {
-    this.ticker = ticker;
+  @JsonProperty("03. high")
+  private double high;
+
+  @JsonProperty("04. low")
+  private double low;
+
+  @JsonProperty("05. price")
+  private double price;
+
+  @JsonProperty("06. volume")
+  private double volume;
+
+  @JsonProperty("07. latest trading day")
+  private Date latestTradingDay;
+
+  @JsonProperty("08. previous close")
+  private double previousClose;
+
+  @JsonProperty("09. change")
+  private double change;
+
+  @JsonProperty("10. change percent")
+  private String changePercent;
+
+  public void setSymbol(String symbol) {
+    this.symbol = symbol;
   }
 
   public void setOpen(double open) {
@@ -44,8 +58,8 @@ public class GlobalQuote {
     this.price = price;
   }
 
-  public void setLastTradingDay(Date lastTradingDay) {
-    this.lastTradingDay = lastTradingDay;
+  public void setLatestTradingDay(Date latestTradingDay) {
+    this.latestTradingDay = latestTradingDay;
   }
 
   public void setPreviousClose(double previousClose) {
@@ -60,12 +74,8 @@ public class GlobalQuote {
     this.changePercent = changePercent;
   }
 
-  public void setTimestamp(Timestamp timestamp) {
-    this.timestamp = timestamp;
-  }
-
-  public String getTicker() {
-    return ticker;
+  public String getSymbol() {
+    return symbol;
   }
 
   public double getOpen() {
@@ -88,8 +98,8 @@ public class GlobalQuote {
     return price;
   }
 
-  public Date getLastTradingDay() {
-    return lastTradingDay;
+  public Date getLatestTradingDay() {
+    return latestTradingDay;
   }
 
   public double getPreviousClose() {
@@ -102,9 +112,5 @@ public class GlobalQuote {
 
   public String getChangePercent() {
     return changePercent;
-  }
-
-  public Timestamp getTimestamp() {
-    return timestamp;
   }
 }

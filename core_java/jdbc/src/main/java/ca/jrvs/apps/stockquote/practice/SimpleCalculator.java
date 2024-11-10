@@ -1,4 +1,4 @@
-package ca.jrvs.apps.jdbc.practice;
+package ca.jrvs.apps.stockquote.practice;
 
 public interface SimpleCalculator {
   int add(int var1, int var2);
